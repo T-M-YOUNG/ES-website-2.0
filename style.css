@@ -14,11 +14,5 @@ html {
     --dark: #333;
 }
 
-body {
-    background-color: var(--dark);
-}
 
-.nav {
-    opacity: 0.9;
-    filter: (opacity=50);
-}
+
