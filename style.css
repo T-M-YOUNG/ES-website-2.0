@@ -7,6 +7,8 @@
 
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Noto Sans TC', sans-serif;
 }
 
 :root {
@@ -14,5 +16,38 @@ html {
     --dark: #333;
 }
 
+/* navbar */
 
+.navbar {
+    background-color: rgb(0, 0, 0);
+    opacity: .9;
+}
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.navbar-toggler-icon {
+    font-size: 0.6em;
+
+}
+
+/* header */
+
+.bg-img {
+    height: 120%;
+    width: 100%;
+   
+}
+
+.bg-img-left {
+    margin-left: -30px;
+}
+
+.bg-img-right {
+    margin-right: -25px;
+}
 
