@@ -51,3 +51,14 @@ html {
     margin-right: -25px;
 }
 
+/* about */
+.about {
+    /* background-color: black; */
+
+}
+
+.develop-text {
+    display: flex;
+    align-items: center;
+}
+
