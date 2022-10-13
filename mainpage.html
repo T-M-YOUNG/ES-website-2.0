@@ -39,7 +39,7 @@
             <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 
                 <li class="nav-item">
-                    <a href="#關於我們" class="nav-link active" aria-current="page">關於我們</a>
+                    <a href="#關於我們" class="nav-link" aria-current="page">關於我們</a>
                 </li>
 
                 <!-- drop 1 -->
@@ -48,9 +48,9 @@
                         開發中項目
                     </a>
                     <ul class="dropdown-menu bg-dark">
-                        <li><a class="dropdown-item text-white" href="#影視部">影視部</a></li>
-                        <li><a class="dropdown-item text-white" href="#遊戲部">遊戲部</a></li>
-                        <li><a class="dropdown-item text-white" href="#漫畫">合作漫畫</a></li>
+                        <li><a class="dropdown-item text-white" href="#影視部">影視創作部</a></li>
+                        <li><a class="dropdown-item text-white" href="#遊戲部">遊戲製作部</a></li>
+                        <li><a class="dropdown-item text-white" href="#漫畫">漫畫合作部</a></li>
                     </ul>
                 </li>
                 <!-- drop 2 -->
@@ -64,7 +64,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="聯繫我們" class="nav-link">聯繫我們</a>
+                    <a href="#contact" class="nav-link">聯繫我們</a>
                 </li>
             </ul>
         </div>
@@ -73,18 +73,18 @@
 
     <!-- header -->
     <header class="landing text-center">
-        <div class="container-fluid py-5 my-5 flex-nowrap vh-100">
+        <div class="container-fluid py-5 my-5 vh-100 flex-nowrap">
 
             <div class="row gx-1">  
-                <div class="col-lg-3 col-md col-sm border">
+                <div class="col-lg-3 d-sm-none d-md-block d-md-none d-lg-block d-none d-sm-block">
                     <img src="img/logo-dark-r.png" alt="" class="bg-img bg-img-left">
                 </div>
 
-                <div class="col-lg-6 col-md-6 col-sm-4 text-center py-5 px-0 my-5 border">
+                <div class="col-lg-6 py-5 px-0 my-5 d-inline">
                     <h1>以<br/>創<br />意<br />，<br />鑄<br />造<br />文<br />化<br />。</h1>
                 </div>
 
-                <div class="col-lg-3 col-md col-sm border">
+                <div class="col-lg-3 d-sm-none d-md-block d-md-none d-lg-block d-none d-sm-block">
                     <img src="img/logo-dark-l.png" alt="" class="bg-img bg-img-right">
                 </div>
                 
@@ -92,33 +92,26 @@
         </div>
     </header>    
 
-    <!-- about -->
-    <section class="about">
-        <div class="container">
-            <div class="row py-5 justify-content-center">
-                <div class="col-8" id="關於我們">
-                    <p class="fs-4">故事不死創意文化有限公司是一間扎根澳門的多元故事創造工作室。本公司秉持著以<strong>創意</strong>鑄造<strong>文化</strong>的精神，持續開拓澳門本地的故事產業。目前公司旗下創作領域涵蓋：小說、劇本、漫畫、影視以及遊戲，是全澳門最大的以故事IP為主導的新媒體工作室。</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-     <!-- slides -->
-    <div id="carouselExampleIndicators" class="carousel slide my-5" data-bs-ride="true">
+    <!-- slides -->
+    <div class="row text-center">
+        <h2>最新發佈</h2>
+    </div>
+    <div id="carouselExampleIndicators" class="carousel slide " data-bs-ride="true">
         <div class="carousel-indicators">
-
+    
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
                 aria-current="true" aria-label="Slide 1"></button>
-
+    
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
                 aria-label="Slide 2"></button>
-
+    
             <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
                 aria-label="Slide 3"></button>
-
-            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
         </div>
-
+    
         <div class="carousel-inner">
             <div class="carousel-item active">
                 <img src="img/塔石V1.PNG" class="d-block w-100" alt="...">
@@ -145,55 +138,59 @@
         </button>
     </div>
 
+    <!-- about -->
+    <section class="about" id="關於我們">
+        <div class="container">
+            <div class="row py-5 justify-content-center">
+                <div class="col-8">
+                    <h2 class="fs-4">故事不死創意文化有限公司是一間扎根澳門的多元故事創造工作室。本公司秉持著以<strong>創意</strong>鑄造<strong>文化</strong>的精神，持續開拓澳門本地的故事產業。目前公司旗下創作領域涵蓋：小說、劇本、漫畫、影視以及遊戲，是全澳門最大的以故事IP為主導的新媒體工作室。</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
     <!-- 開發中項目 -->
-    <section class="container-md gy-5 ">
-        <div class="row">
-            <div class="col-lg-6" id="影視部">
-                <img src="img/未來製作影片圖2.PNG" alt="" width="400">
-            </div>
-            <div class="col-lg-6 develop-text">
-               <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo modi saepe voluptates delectus soluta.</p>
-            </div>
+    <!-- 影視部 -->
+    <section class="container my-5 py-5" id="影視部">
+        <div class="row text-center my-5 py-5" >
+            <h2>影視創作部</h2>
         </div>
-
-        <div class="row">
-            <div class="col-lg-6 develop-text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo modi saepe voluptates delectus
-                    soluta.</p>
+        <div class="row my-2">
+            <div class="col-lg-6" >
+                <img src="img/未來製作影片圖2.PNG" class="rounded mx-auto d-block" alt="" width="400">
             </div>
             <div class="col-lg-6" id="影視部">
-                <img src="img/旗下出品1.PNG" alt="" width="400">
+                <img src="img/旗下出品1.PNG" class="rounded mx-auto d-block" alt="" width="400">
             </div>
         </div>
 
         <div class="row">
             <div class="col-lg-6" id="影視部">
-                <img src="img/未來製作影片圖1.PNG" alt="" width="400">
-            </div>
-            <div class="col-lg-6 develop-text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo modi saepe voluptates delectus
-                    soluta.</p>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-lg-6 develop-text">
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo modi saepe voluptates delectus
-                    soluta.</p>
+                <img src="img/未來製作影片圖1.PNG" class="rounded mx-auto d-block" alt="" width="400">
             </div>
             <div class="col-lg-6" id="影視部">
-                <img src="img/未來製作影片圖3.PNG" alt="" width="400">
+                <img src="img/未來製作影片圖3.PNG" class="rounded mx-auto d-block" alt="" width="400">
             </div>
+            
         </div>
+
        
     </section>
 
     <!-- 遊戲部 -->
-    <section class="container-md">
+    <section class="container my-5 py-5 border" id="遊戲部">
+        <div class="row text-center my-5 py-5">
+            <h2>遊戲製作部</h2>
+        </div>
         <div class="row">
-            <div class="col-lg-6">
-                <img src="img/鬚頭鼠之家介面2.PNG" alt="" width="400">
+            <div class="col-8 mx-auto">
+                <img src="img/鬚頭鼠之家介面2.PNG" class="rounded mx-auto d-block" alt="" width=100%">
             </div>
+        </div>
+
+        <div class="row">
             <div class="col-lg6 develop-text">
                 <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut explicabo modi saepe voluptates delectus
                     soluta.</p>
@@ -202,18 +199,21 @@
     </section>
 
     <!-- 漫畫部 -->
-    <section class="conatiner-md border">
+    <section class="conatiner my-5 py-5 border" id="漫畫">
+        <div class="row text-center my-5 py-5">
+            <h2>漫畫合作部</h2>
+        </div>
         <div class="row">
             <div class="col">
-                <img src="img/合作漫畫1.PNG" alt="" width="300">
+                <img src="img/合作漫畫1.PNG" class="rounded mx-auto d-block" alt="" width="300">
             </div>
 
             <div class="col">
-                <img src="img/合作漫畫3.PNG" alt="" width="300">
+                <img src="img/合作漫畫3.PNG" class="rounded mx-auto d-block" alt="" width="300">
             </div>
 
             <div class="col">
-                <img src="img/合作漫畫2.PNG" alt="" width="300">
+                <img src="img/合作漫畫2.PNG" class="rounded mx-auto d-block" alt="" width="300">
             </div>
         </div>
     </section>
@@ -225,7 +225,9 @@
 
 
 
+<footer class="container" id="contact">
 
+</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"

@@ -52,13 +52,12 @@ html {
 }
 
 /* about */
-.about {
-    /* background-color: black; */
-
-}
 
 .develop-text {
     display: flex;
     align-items: center;
 }
 
+.navbar .navbar-nav .dropdown .dropdown-item:hover {
+    background-color: #333;
+}
