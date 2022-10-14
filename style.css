@@ -61,3 +61,31 @@ html {
 .navbar .navbar-nav .dropdown .dropdown-item:hover {
     background-color: #333;
 }
+
+
+
+/* 影視部 */
+#影視部:has(img:hover) img:not(:hover) {
+    scale: 0.8;
+    opacity: 0.7;
+}
+
+#影視部 img {
+    transition: scale 350ms ease, opacity 350ms linear;
+}
+
+/* products */
+.products {
+    background: black;
+}
+
+/* contacts */
+
+.contact .d-flex {
+    justify-content: flex-start;
+}
+
+.contact i {
+    padding: 2rem;
+    margin: 0 auto;
+}
