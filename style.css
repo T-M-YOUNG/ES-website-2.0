@@ -9,6 +9,7 @@ html {
     box-sizing: border-box;
     scroll-behavior: smooth;
     font-family: 'Noto Sans TC', sans-serif;
+    overflow-x: hidden;
 }
 
 :root {
@@ -51,6 +52,11 @@ html {
     margin-right: -25px;
 }
 
+/* slides */
+.slides {
+    background: #000;
+}
+
 /* about */
 
 .develop-text {
@@ -65,6 +71,7 @@ html {
 
 
 /* 影視部 */
+
 #影視部:has(img:hover) img:not(:hover) {
     scale: 0.8;
     opacity: 0.7;
@@ -74,9 +81,32 @@ html {
     transition: scale 350ms ease, opacity 350ms linear;
 }
 
+/* 遊戲部 */
+#遊戲部 {
+    background: #000;
+}
+
+/* 漫畫部 */
+#漫畫部:has(img:hover) img:not(:hover) {
+    scale: 0.8;
+    opacity: 0.7;
+}
+
+#漫畫部 img {
+    transition: scale 350ms ease, opacity 350ms linear;
+}
+
+#漫畫部 img {
+    border: 1rem solid black;
+}
+
 /* products */
 .products {
     background: black;
+}
+
+.products .products-items {
+    border: .5px solid whitesmoke;
 }
 
 /* contacts */
@@ -85,7 +115,8 @@ html {
     justify-content: flex-start;
 }
 
-.contact i {
-    padding: 2rem;
+.contact {
+    padding: .5rem;
+    margin-top: 3rem;
     margin: 0 auto;
 }

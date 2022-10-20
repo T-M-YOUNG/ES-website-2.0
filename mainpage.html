@@ -82,7 +82,7 @@
                   >
                 </li>
                 <li>
-                  <a class="dropdown-item text-white" href="#漫畫"
+                  <a class="dropdown-item text-white" href="#漫畫部"
                     >漫畫合作部</a
                   >
                 </li>
@@ -127,86 +127,88 @@
     </header>
 
     <!-- slides -->
-    <div class="row text-center">
-      <h2>最新發佈</h2>
-    </div>
-    <div
-      id="carouselExampleIndicators"
-      class="carousel slide"
-      data-bs-ride="true"
-    >
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="1"
-          aria-label="Slide 2"
-        ></button>
-
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="2"
-          aria-label="Slide 3"
-        ></button>
-
-        <button
-          type="button"
-          data-bs-target="#carouselExampleIndicators"
-          data-bs-slide-to="3"
-          aria-label="Slide 4"
-        ></button>
+    <section class="container-fluid slides py-5 my-5">
+      <div class="row text-center text-white">
+        <p>最新發佈</p>
       </div>
+      <div
+        id="carouselExampleIndicators"
+        class="carousel slide"
+        data-bs-ride="true"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
 
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/塔石V1.PNG" class="d-block w-100" alt="..." />
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+
+          <button
+            type="button"
+            data-bs-target="#carouselExampleIndicators"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
         </div>
-        <div class="carousel-item">
-          <img src="img/奶茶週邊三.PNG" class="d-block w-100" alt="..." />
+
+        <div class="carousel-inner mb-5">
+          <div class="carousel-item active">
+            <img src="img/塔石V1.PNG" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/奶茶週邊三.PNG" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/合作漫畫1-2.PNG" class="d-block w-100" alt="..." />
+          </div>
+          <div class="carousel-item">
+            <img src="img/合作漫畫4-2.PNG" class="d-block w-100" alt="..." />
+          </div>
         </div>
-        <div class="carousel-item">
-          <img src="img/合作漫畫1-2.PNG" class="d-block w-100" alt="..." />
-        </div>
-        <div class="carousel-item">
-          <img src="img/合作漫畫4-2.PNG" class="d-block w-100" alt="..." />
-        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
+    </section>
 
     <!-- about -->
     <section class="about" id="關於我們">
-      <div class="container">
-        <div class="row py-5 justify-content-center">
-          <div class="col-8">
-            <h2 class="fs-4">
+      <div class="container mt-5 pt-5">
+        <div class="row py-5 my-5 justify-content-center">
+          <div class="col-12">
+            <h2 class="fs-4 mt-5 pt-5">
               故事不死創意文化有限公司是一間扎根澳門的多元故事創造工作室。本公司秉持著以<strong>創意</strong>鑄造<strong>文化</strong>的精神，持續開拓澳門本地的故事產業。目前公司旗下創作領域涵蓋：小說、劇本、漫畫、影視以及遊戲，是全澳門最大的以故事IP為主導的新媒體工作室。
             </h2>
           </div>
@@ -216,12 +218,12 @@
 
     <!-- 開發中項目 -->
     <!-- 影視部 -->
-    <section class="container my-5 py-5" id="影視部">
-      <div class="row text-center my-5 py-5">
+    <section class="container mt-5 pt-5" id="影視部">
+      <div class="row text-center mb-5">
         <h2>影視創作部</h2>
       </div>
       <div class="row my-2">
-        <div class="col-lg-6">
+        <div class="col-lg-6 my-3">
           <img
             src="img/未來製作影片圖2.PNG"
             class="rounded mx-auto d-block"
@@ -229,7 +231,7 @@
             width="400"
           />
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 my-3">
           <img
             src="img/旗下出品1.PNG"
             class="rounded mx-auto d-block"
@@ -240,7 +242,7 @@
       </div>
 
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-lg-6 my-3">
           <img
             src="img/未來製作影片圖1.PNG"
             class="rounded mx-auto d-block"
@@ -248,7 +250,7 @@
             width="400"
           />
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 my-3">
           <img
             src="img/未來製作影片圖3.PNG"
             class="rounded mx-auto d-block"
@@ -260,29 +262,32 @@
     </section>
 
     <!-- 遊戲部 -->
-    <section class="container my-5 py-5 border" id="遊戲部">
-      <div class="row text-center my-5 py-5">
-        <h2>遊戲製作部</h2>
-      </div>
-      <div class="row">
-        <div class="col-8 mx-auto">
-          <img src="img/鬚頭鼠之家介面2.PNG" class="rounded mx-auto d-block"
-          alt="" width=100%">
+    <section id="遊戲部">
+      <div class="container my-5 py-5 text-white">
+        <div class="row text-center my-5 py-5">
+          <h2>遊戲製作部</h2>
         </div>
-      </div>
+        <div class="row">
+          <div class="col-8 mx-auto">
+            <img src="img/鬚頭鼠之家介面2.PNG" class="rounded mx-auto d-block"
+            alt="" width=100%">
+          </div>
+        </div>
 
-      <div class="row">
-        <div class="col-lg6 develop-text">
-          <p>
-            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aut
-            explicabo modi saepe voluptates delectus soluta.
-          </p>
+        <div class="row mt-5">
+          <div class="col-lg6 develop-text">
+            <p>
+            《鬚頭鼠之家》是一款電腦和手機平台遊玩的像素風格的休閒模擬類遊戲，故事講述一群來自異世界的鬚頭鼠一家居住在地球某一處森林裡的愉快相處時光。遊戲玩法是透過收集魔法蘋果以換取道具，玩家需要了解家人們的喜好贈送相應的道具，提高家人們的好感度，當達到一定好感度時家人會外出旅行，並在途中收集各種道具和明信片，收集到的明信片可以解鎖各種傢具，也可以在商店購買更多傢具，讓本來空蕩蕩的家園變得更有生氣。 
+  
+            遊戲鼓勵玩家在家園內四處探索，每個角落都會帶給玩家不同的驚喜，豐富的彩蛋和劇情互動讓玩家更了解鬚頭鼠一家的生活習慣，讓玩家在繁忙的都市生活中得到心靈上的慰藉。
+            </p>
+          </div>
         </div>
       </div>
     </section>
 
     <!-- 漫畫部 -->
-    <section class="conatiner my-5 py-5 border" id="漫畫">
+    <section class="conatiner my-5 py-5" id="漫畫部">
       <div class="row text-center my-5 py-5">
         <h2>漫畫合作部</h2>
       </div>
@@ -319,29 +324,29 @@
     <!-- products -->
 
     <section class="products" id="周邊產品">
-      <div class="container py-5">
-        <div class="row">
+      <div class="container text-white text-center py-5">
+        <div class="row my-5">
           <h2>周邊商品</h2>
         </div>
-        <div class="row products-item-1">
+        <div class="row products-items">
           <div class="col">
             <img src="/img/公司週邊一.PNG" alt="" width="100%" />
           </div>
         </div>
 
-        <div class="row products-item-2">
+        <div class="row products-items">
           <div class="col">
             <img src="/img/奶茶週邊一產品.PNG" alt="" width="100%" />
           </div>
         </div>
 
-        <div class="row products-item-3">
+        <div class="row products-items">
           <div class="col">
             <img src="/img/奶茶週邊二產品.PNG" alt="" width="100%" />
           </div>
         </div>
 
-        <div class="row products-item-4">
+        <div class="row products-items">
           <div class="col">
             <img src="/img/奶茶週邊三產品.PNG" alt="" width="100%" />
           </div>
